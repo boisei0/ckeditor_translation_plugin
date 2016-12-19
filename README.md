@@ -20,6 +20,9 @@ On the page that will be displaying the translated text, add the following javas
   translationElem.data('translation', temp);
 })`
 
+## Screeenshot
+![Screenshot of the plugin in use](screenshot_plugin.png)
+
 ## License
 The translation plugin is released under the MIT license. See the enclosed license text for the
 full license.
