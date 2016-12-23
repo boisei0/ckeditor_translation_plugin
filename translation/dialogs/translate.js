@@ -1,6 +1,6 @@
 CKEDITOR.dialog.add('translateDialog', function(editor) {
     return {
-        title: 'Translate Trigedasleng/Noutasleng',
+        title: 'Translate Trigedasleng',
         minWidth: 400,
         minHeight: 200,
         contents: [
@@ -10,9 +10,9 @@ CKEDITOR.dialog.add('translateDialog', function(editor) {
                 elements: [
                     {
                         type: 'text',
-                        id: 'trig_nout',
-                        label: 'Trig/Nout',
-                        validate: CKEDITOR.dialog.validate.notEmpty("Trig/Nout field cannot be empty"),
+                        id: 'trig',
+                        label: 'Trigedasleng: ',
+                        validate: CKEDITOR.dialog.validate.notEmpty("Trigedasleng field cannot be empty"),
                         setup: function(element) {
                             this.setValue(element.getText());
                         },

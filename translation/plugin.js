@@ -5,7 +5,7 @@ CKEDITOR.plugins.add('translation', {
             allowedContent: 'span[id,data-translation](translation)'
         }));
         editor.ui.addButton('Translation', {
-            label: 'Insert translation (Trig/Nout)',
+            label: 'Insert translation (Trigedasleng)',
             command: 'translate',
             toolbar: 'others'
         });
