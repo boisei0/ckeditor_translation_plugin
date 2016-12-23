@@ -1,7 +1,7 @@
 # Readme
 This is a plugin for CKEditor 4.x to support inline translations of parts of the text.
-In particular, this plugin was made to support translations from Trigedasleng or 
-Noutasleng towards Gonasleng, and the interface reflects it as such, but it can
+In particular, this plugin was made to support translations from Trigedasleng
+towards Gonasleng, and the interface reflects it as such, but it can
 be used for other languages as well.
 
 ## How to use
